@@ -29,7 +29,12 @@
 }
 
 .cuore {
+  visibility: hidden;
   color: red;
   text-align: center;
   font-size: 30px;
+}
+
+.cuore:hover {
+  visibility: visible;
 }
