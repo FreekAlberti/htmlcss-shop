@@ -9,14 +9,18 @@
   border:  5px solid blue;
 }
 
-.box-ipad {
+.box {
+  position: relative;
   display: inline-block;
 }
 
-.box-iphone {
-  display: inline-block;
+.sconto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
 }
 
-.box-cuffie {
-  display: inline-block;
+.sconto-5 {
+  background-color: red;
 }
