@@ -6,15 +6,27 @@
 
 .container {
   display: inline-block;
-  border:  5px solid blue;
+  border:  5px solid darkblue;
 }
 
 .box {
   position: relative;
   display: inline-block;
   margin: 5px;
-  height: 500px;
-  width: 350px;
+  height: 400px;
+  width: 300px;
+}
+
+.ipad {
+  background-image: url(../img/pd1.jpg);
+}
+
+.iphone {
+  background-image: url(../img/pd2.jpg);
+}
+
+.cuffie {
+  background-image: url(../img/pd3.jpg);
 }
 
 .sconto {
@@ -29,12 +41,14 @@
 }
 
 .cuore {
-  visibility: hidden;
+  display: none;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
   color: red;
-  text-align: center;
   font-size: 30px;
 }
 
-.cuore:hover {
-  visibility: visible;
+.box:hover .cuore {
+  display: block;
 }
