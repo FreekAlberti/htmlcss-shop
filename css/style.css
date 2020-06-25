@@ -12,6 +12,9 @@
 .box {
   position: relative;
   display: inline-block;
+  margin: 5px;
+  height: 500px;
+  width: 350px;
 }
 
 .sconto {
@@ -23,4 +26,10 @@
 
 .sconto-5 {
   background-color: red;
+}
+
+.cuore {
+  color: red;
+  text-align: center;
+  font-size: 30px;
 }
