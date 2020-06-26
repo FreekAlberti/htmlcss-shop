@@ -5,6 +5,12 @@
 }
 
 .container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.row {
   display: inline-block;
   border:  5px solid darkblue;
 }
