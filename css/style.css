@@ -43,7 +43,8 @@
 .cuore {
   display: none;
   position: absolute;
-  right: 50%;
+  text-align: center;
+  width: 100%;
   bottom: 0;
   color: red;
   font-size: 30px;
